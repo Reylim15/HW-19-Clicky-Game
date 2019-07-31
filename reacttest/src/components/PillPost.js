@@ -1,7 +1,7 @@
 import React from 'react';
 
-const IconCard = props => (
-  <section id={props.id} className="iconCard" value={props.id} onClick={() =>
+const PillPost = props => (
+  <section id={props.id} className="PillPost" value={props.id} onClick={() =>
   props.PillClicked(props.id)
   }>
     <section className="pill">
@@ -10,4 +10,4 @@ const IconCard = props => (
   </section>
 )
 
-export default IconCard;
+export default PillPost;
